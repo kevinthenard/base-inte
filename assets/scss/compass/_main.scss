@@ -1,0 +1,115 @@
+//
+// Main
+@for $i from 1 through 40{
+  .fs-#{$i} { font-size: 1px * $i; }
+}
+
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.m-10 {
+    margin: 10px;
+}
+.m-20 {
+    margin: 20px;
+}
+.ml-10 {
+	margin-left: 10px;
+}
+.mr-10 {
+	margin-right: 10px;
+}
+.pl-10 {
+	padding-left: 10px;
+}
+.pr-10 {
+	padding-right: 10px;
+}
+.mt-10 {
+	margin-top: 10px;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.mt-40 {
+	margin-top: 40px;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+.mb-40 {
+	margin-bottom: 40px;
+}
+.pt-20{
+	padding-top: 20px
+}
+.pb-20{
+	padding-bottom: 20px
+}
+.block{
+	display: block !important;
+}
+.form-control {
+	border-radius: 0;
+}
+.alpha{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.omega{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.alpha-x{
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+.omega-x{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+.main-color{
+	color: $brand-primary;
+}
+.bg-gray{
+	background-color: $gray;
+}
+.border-none{
+	border: none;
+}
+.border-radius{
+	border-radius: $border-radius-base;
+}
+.shadow-inside-small{
+	box-shadow: -1px 1px 6px -3px rgba(0, 0, 0, 0.3) inset;
+}
+.color-grey{
+	color: $gray-light
+}
+.border-gray-dark{
+	border: 1px solid $gray-light;
+}
+.big {
+	font-size: 4em;
+}
+.bigger {
+	font-size: 6em;
+}
+.light {
+	font-weight: 300;
+}
+.bold {
+	font-weight: bold;
+}
+.clear{
+	clear: both;
+}
+.text-underline {
+	text-decoration: underline;
+}

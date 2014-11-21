@@ -1,0 +1,6 @@
+Options -Indexes
+ErrorDocument 403 "Désolé, vous n'avez pas le droit d'accéder à ce fichier"
+ErrorDocument 404 /404.html
+
+RewriteEngine on
+#RewriteRule règle_de_réécriture
