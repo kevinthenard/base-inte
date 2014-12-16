@@ -1,14 +1,41 @@
 //
+
+// Typos
+// exemple :
+@font-face {
+font-family: 'ralewaybold';
+src: url('../fonts/raleway-bold-webfont.eot');
+src: url('../fonts/raleway-bold-webfont.woff') format('woff'),
+url('../fonts/raleway-bold-webfont.ttf') format('truetype'),
+url('../fonts/raleway-bold-webfont.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+.ralewaybold{
+	font-family: "ralewaybold", arial, sans-serif;
+}
+
+// Main
+
+html {
+  //background-color: blue !important
+}
+
 // Main
 @for $i from 1 through 40{
   .fs-#{$i} { font-size: 1px * $i; }
 }
-
+.p-5 {
+    padding: 5px;
+}
 .p-10 {
     padding: 10px;
 }
 .p-20 {
     padding: 20px;
+}
+.m-5 {
+    margin: 5px;
 }
 .m-10 {
     margin: 10px;
@@ -46,6 +73,9 @@
 .mb-40 {
 	margin-bottom: 40px;
 }
+.pt-10{
+	padding-top: 10px
+}
 .pt-20{
 	padding-top: 20px
 }
@@ -74,6 +104,12 @@
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 }
+.rel{
+	position: relative;
+}
+.abs{
+	position: absolute;
+}
 .main-color{
 	color: $brand-primary;
 }
@@ -88,6 +124,9 @@
 }
 .shadow-inside-small{
 	box-shadow: -1px 1px 6px -3px rgba(0, 0, 0, 0.3) inset;
+}
+.color-white{
+	color:white;
 }
 .color-grey{
 	color: $gray-light
@@ -113,3 +152,49 @@
 .text-underline {
 	text-decoration: underline;
 }
+.up{
+	text-transform: uppercase;
+}
+.clear{
+	clear:both
+}
+// alert popup, div etc.
+.danger {
+	background-color: #f2dede;
+	margin: 15px auto;
+    padding: 15px;
+}
+.success{
+	background-color: #dff0d8;
+	margin: 15px auto;
+    padding: 15px;
+}
+.warning{
+	background-color: #fcf8e3;
+	margin: 15px auto;
+    padding: 15px;
+}
+button.navbar-toggle {
+    //background: none repeat scroll 0 0 red;
+    background-color: $brand-primary;
+    .icon-bar {
+	    background: white;
+	    border-color: white;
+	    color: white;
+	}
+}
+button{
+	border-radius: 25px;
+	padding: 15px 50px;
+	border: 1px solid $brand-primary;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    color: $brand-primary;
+    @extend .up, .clear;
+}
+@media (max-width: 768px) {
+	// sous 768
+}
+
