@@ -1,10 +1,14 @@
-#base-inte
-=========
+# base dev front
+================
 
-##Base dev front
+Use Gulp, SCSS, imagemin, linter, Browsersync etc.
 
-###Run in order:
 
-1. nvm use 4.8
-2. gulp init
-3. gulp
+
+## Base dev front
+
+### Run in order:
+
+* nvm use 4.8
+* gulp init
+* gulp
