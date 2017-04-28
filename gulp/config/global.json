@@ -1,0 +1,35 @@
+{	
+	"urlWebsite":   			"localhost",
+	"port":						"9004",
+	"isOpenAutomatically":		"true",
+	"jsInput": 					"private/assets/js/",
+	"jsOutput": 				"public/assets/js/",
+	"cssInput": 				["private/assets/scss/*.scss"],
+	"allInputCss": 				["private/assets/scss/**/*.scss"],
+	"allInputJs": 				["private/assets/js/**/*.js"],
+	"allInputImg": 				[
+        "./private/assets/images/**/*.png",
+        "./private/assets/images/**/*.jpg",
+        "./private/assets/images/**/*.jpeg",
+        "./private/assets/images/**/*.svg",
+        "./private/assets/images/**/*.gif"
+    ],
+    "supportedBrowser":			[
+        "last 2 ie versions",
+        "last 3 Firefox versions",
+        "last 5 Chrome versions",
+        "last 2 Safari versions"
+    ],
+    "allOutputCss": 			"./public/assets/css/",
+    "allOutputImg": 			"./public/assets/images",
+	"allInputAssets": 			["private/assets/scss/**/*.scss", "private/assets/js/**/*.js", "**/*.html"],
+	"nameOutputJs": 			"built.min.js",
+	"nameOutputJslintFile": 	"jshint-output.log",
+	"svgInputFont":				["./private/assets/images/iconfont/**/*.svg"],
+	"baseSvgFont":				"./public/fonts/iconfont",
+	"nameOutputFont": 			"iconfont",
+	"fontPath":					"./private/assets/scss/fonts/iconfont/font.less",
+	"fontOutputLessPath":		"./private/assets/scss/fonts/iconfont/iconfont.less",
+	"fontOutputFontPath":		"../public/assets/fonts/iconfont/",
+	"fontOutputPath":			"./public/assets/fonts/"
+}
